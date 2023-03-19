@@ -1,3 +1,11 @@
+#section1 {
+    height: 600px;
+    background-color: linen;
+}
+#section2 {
+    height: 600px;
+    background-color: khaki;
+}
 .workout{
     margin-left: 50px;
 }
