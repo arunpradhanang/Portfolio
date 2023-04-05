@@ -1,49 +1,21 @@
-#section1 {
-    height: 600px;
-    background-color: linen;
-}
-#section2 {
-    height: 600px;
-    background-color: khaki;
-}
-.workout{
-    margin-left: 50px;
-}
-
-.workout:hover {
-    opacity: 1.0;
-    border: 1px solid #ccc;   
-        
-}
-.fitness{
-    text-align: left; 
-    margin-left: 30px;
-    
-}
-
-p{
-    font-size: xx-large; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-    div{
-   
-    padding: 5px;
-    text-align: center;
-    }
-.name{
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 8px;
+  }
     
-}
-body{
-    margin:0px;
-    padding: 0px;
-    margin-left: auto;
-    margin-right: auto;
 
-}
-a{
-    margin-right: 20px;
-}
+
+
 
