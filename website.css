@@ -13,18 +13,20 @@ html.is-animating .transition-fade {
 }
 
 footer {
-   font-style: italic;
-   background-image: linear-gradient(-180deg, #000000, #180220a2);
-   height: 90px;
-   margin-bottom: -100px;
-   }
-.bot{
-    font-size: large;
-    margin-bottom: 50px;
-    
+    height: 40px;
+    background-image: linear-gradient(-180deg, #000000, #180220a2);
+    padding: 20px;
+
 }
 
-a:link,a:visited {
+.bot {
+    font-size: large;
+    margin-bottom: 50px;
+
+}
+
+a:link,
+a:visited {
 
     background-color: black;
     color: white;
@@ -37,7 +39,8 @@ a:link,a:visited {
 
 }
 
-a:hover,a:active {
+a:hover,
+a:active {
     background-color: rgba(58, 54, 54, 0.61);
 
 }
@@ -74,10 +77,8 @@ h1 {
 #mainheader {
     height: 90px;
     background-image: linear-gradient(0deg, #000000, #180220a2);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+
+
 }
 
 body {
@@ -118,6 +119,7 @@ h2 {
 .top {
     float: right;
     margin-top: -60px;
+    position: relative;
 }
 
 .arun {
@@ -127,4 +129,15 @@ h2 {
 
 img {
     border-radius: 15px;
+    transition: transform .5s, filter .5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(70%);
+
+}
+
+img:hover {
+    filter: brightness(100%);
+    transform: scale(1.1);
+
+
 }
