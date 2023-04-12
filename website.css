@@ -141,7 +141,10 @@ img:hover {
 
 
 }
-@media all (max-width: 28.75em){
+@media (max-width: 700px) {
+.top{
+    flex-direction: column;
 
-}
+
+
     
