@@ -119,7 +119,7 @@ h2 {
 .top {
     float: right;
     margin-top: -60px;
-    position: relative;
+    
 }
 
 .arun {
@@ -142,6 +142,6 @@ img:hover {
 
 }
 @media screen (max-width: 28.75em){
-    
+
 }
     
