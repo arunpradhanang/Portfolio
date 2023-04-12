@@ -3,6 +3,7 @@
     transition: 0.4s;
     transform: translateX(0);
     transform-origin: bottom;
+    animation: mymove .5s;
 
 }
 
@@ -142,10 +143,18 @@ img:hover {
 
 
 }
-@media (max-width: 700px) {
-.top{
-    flex-direction: column;
-
+@media (max-width: 700px) {}
+.top {flex-direction: column;
+}
+    @keyframes mymove {
+        0% {
+          transform: translate3d(0, 100%, 0);
+        }
+        100% {
+          transform: translate3d(0, 0, 0);
+        }
+      
 
 
     
+    }
